@@ -1,0 +1,9 @@
+spring:
+  data:
+    mongodb:
+      database: maersk_bookings
+      uri: mongodb://localhost:27017/maersk_bookings
+  main:
+    web-application-type: reactive
+server:
+  port: 8080
